@@ -1,0 +1,17 @@
+<div class="m-5 border-start border-light-subtle border-5">
+  <div class="ms-3 p-2">
+    <p><%= params[:question] %></p>
+    <p><i>- You</i></p>
+  </div>
+</div>
+
+<div class="mt-5 ms-5 me-5 mb-3 border-start border-light-subtle border-5 bg-warning" style="--bs-bg-opacity: .2">
+  <div class="ms-3 p-2">
+    <p><%= @answer %></p>
+    <p><i>- Your coach</i></p>
+  </div>
+</div>
+
+<div class="ms-5">
+  <a href="/ask">Ask a new question</a>
+</div>
